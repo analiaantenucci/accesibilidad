@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Don Jaime - Verduras Organicas</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="aside_contacto">
+        <div class="header_contacto">
+          <div class="logo"><img src="img/logo.jpg"></div>
+          <div class="menu_header">
+            <ul>
+              <li>
+                <a href="index.html"><p>Home</p><span><img src="img/home-icon.jpg"></span></a>
+              <li>
+                <a href="contacto.html"><p>Contacto</p><span><img src="img/contacto-icon.jpg"></span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="search">
+            <form>
+              <input type="text" name="buscar" placeholder="Buscar">
+              <div id="search_button"><img src="img/search-icon.jpg"></div>
+              <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#search_button').on('click', function(){
+                        location.reload(true);
+                    });
+                });
+            </script>
+            </form>
+          </div>
+        </div>
+        <table>
+              <tr>
+                <td>
+                  <ul>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a>Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><a>Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a>Lorem ipsum dolor sit amet eam solum.</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet eam solum.</a></li>
+                  </ul>
+                </td>
+              </tr>
+          </table>
+      </div>
+      <div class="main_contacto">
+        <span class="titulo_grande">Contacto</span>
+        <p>Complete el formulario, le responderemos a la brevedad.</p>
+        <form>
+          <table>
+              <tr>
+                <td><input type="text" name="nombre" placeholder="Nombre" id="input" tabindex="1"></td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="apellido" placeholder="Apellido" id="input" tabindex="2"></td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="email" placeholder="E-Mail" id="input" tabindex="3"></td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="telefono_fijo" placeholder="Teléfono Fijo" id="input" tabindex="4"></td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="telefono_celular" placeholder="Teléfono Celular" id="input" tabindex="5"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <tr>
+                <td><input type="text" name="direccion" placeholder="Dirección" id="input" tabindex="6"></td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="altura" placeholder="Altura" id="input" tabindex="7"></td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="piso" placeholder="Piso" id="input" tabindex="8"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="departamento" placeholder="Departamento" id="input" tabindex="9"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <select name="pais" id="select" tabindex="10">
+                    <option value="" selected>País</option>
+                    <option value="pais1">País 1</option>
+                    <option value="pais2">País 2</option>
+                    <option value="pais3">País 3</option>
+                    <option value="pais4">País 4</option>
+                  </select>
+                </td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td>
+                  <select name="provincia" id="select" tabindex="11">
+                    <option value="" selected>Provincia</option>
+                    <option value="provincia1">Provincia 1</option>
+                    <option value="provincia2">Provincia 2</option>
+                    <option value="provincia3">Provincia 3</option>
+                    <option value="provincia4">Provincia 4</option>
+                  </select>
+                </td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="ciudad" placeholder="Ciudad" id="input" tabindex="12"></td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="codigo_postal" placeholder="Código Postal" id="input" tabindex="13"></td>
+                <td></td>
+              </tr>
+                <td>
+                   <input type="radio" name="razon" value="razon1">
+                   <span>Lorem ipsum 1</span>
+                   <input type="radio" name="razon" value="razon2">
+                   <span>Lorem ipsum 2</span>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea cols="50" rows="10" placeholder="Observaciones" id="input" tabindex="14"></textarea> 
+                </td>
+                <td><img src="img/requerido-icon.png"></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" value="selectit">
+                  <span>Lorem ipsum sit dolor amet</span>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <button type="submit">Enviar</button>
+                  <button type="reset">Borrar</button>
+                </td>
+                <td></td>
+              </tr>
+          </table>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="menu_footer">
+          <ul>
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+    </div>
+  </body>
+</html>

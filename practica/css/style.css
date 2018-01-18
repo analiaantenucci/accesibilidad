@@ -1,0 +1,218 @@
+/*Estilos Generales*/
+body {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+}
+/*a:focus,*/
+input:focus,
+select:focus,
+textarea:focus
+/*button:focus*/ {
+	outline: none;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+span.titulo_grande {
+	font-size: 30px;
+	font-weight: bold;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+span.titulo_chico {
+	font-size: 22px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px 0;
+}
+.footer {
+	border-top: 1px solid #f05742;
+	padding: 10px 0 30px;
+	clear: both;
+}
+.footer .menu_footer {
+	overflow: hidden;
+}
+.footer .menu_footer ul {
+	list-style: none;
+	float: right;
+	overflow: hidden;
+}
+.footer .menu_footer ul li a{
+	font-style: normal !important;
+	text-transform: uppercase;
+	color: #f05742 !important;
+}
+
+/*Estilos de la Home*/
+
+.header_home {
+	overflow: hidden;
+}
+.header_home .logo {
+	float: left;
+	width: 204px;
+}
+.header_home .menu_header {
+	float: left;
+	width: auto;
+}
+.header_home .menu_header ul {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 45px 0 0;
+}
+.header_home .menu_header ul li,
+.footer .menu_footer ul li {
+	float: left;
+	padding: 0 10px;
+}
+.header_home .menu_header ul li a, 
+.footer .menu_footer ul li a,
+.header_contacto .menu_header ul a {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	color: #333;
+	text-decoration: none;
+}
+.header_home .menu_header ul li a p,
+.header_contacto .menu_header ul a p {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.header_home .menu_header ul li a span,
+.header_contacto .menu_header ul a span {
+	display: inline-block;
+	padding: 0 0 0 5px;
+	vertical-align: middle;
+}
+.header_home .search {
+	float: right;
+	width: auto;
+	padding-top: 30px;
+}
+.header_home .search form input,
+.header_contacto .search form input {
+	border: 1px solid #f05742;
+	padding: 7px 10px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;
+}
+.header_home .search form input::placeholder,
+.header_contacto .search form input::placeholder {
+	color: black;
+}
+.header_home .search form #search_button,
+.header_contacto .search form #search_button {
+	display: inline-block;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.main_home,
+.main_contacto {
+	background: #f05742; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #f05742 0%, #ed9d93 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #f05742 0%,#ed9d93 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #f05742 0%,#ed9d93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f05742', endColorstr='#ed9d93',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding: 20px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.aside_home {
+	padding: 20px;
+	margin-top: 20px;
+	border-top: 1px solid #f05742;
+}
+.aside_home table tr td {
+	width: 246px;
+}
+.aside_home table tr td ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.aside_home table tr td ul a {
+	text-decoration: none;
+	color: black;
+}
+
+/*Estilos de la pagina de Contacto*/
+
+.aside_contacto {
+	width: 250px;
+	float: left;
+}
+.aside_contacto table ul {
+	list-style: none;
+	padding: 0 0 10px;
+	margin: 0;
+}
+.aside_contacto table ul li {
+	padding-bottom: 5px;
+}
+.aside_contacto table ul a {
+	text-decoration: none;
+	color: black;
+}
+.header_contacto {
+	margin-bottom: 20px;
+}
+.header_contacto .menu_header ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+}
+.main_contacto {
+	width: 734px;
+	float: left;
+	margin-bottom: 20px;
+}
+.main_contacto table {
+	margin: 0 auto;
+}
+.main_contacto table td:first-child{
+	width: 370px;
+}
+.main_contacto table td:last-child{
+	width: 30px;
+	text-align: right;
+	vertical-align: top;
+}
+.main_contacto table input[type="text"],
+.main_contacto table select,
+.main_contacto table textarea {
+	width: 370px;
+	border: 1px solid white;
+	padding: 7px 10px;
+	margin-bottom: 5px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;	
+}
+.main_contacto table input::placeholder,
+.main_contacto table textarea::placeholder
+ {
+	color: black;
+}
+.main_contacto table button {
+	background-color: white;
+	border: 1px solid #f05742;
+	padding: 10px;
+	margin-top: 10px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;
+}
